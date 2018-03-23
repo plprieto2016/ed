@@ -11,24 +11,9 @@ import java.util.ArrayList;
  *
  * @author lprie
  */
-public class AnalizadorDatos {
-    ArrayList<String> datos;
-    static final boolean CORRECTOS = true;
-    static final boolean INCORRECTOS = false;
-
-    private void cargarDatos() {
-        //codigo
-    }
+public class AnalizadorDatos extends NewClass {
 
     void guardarDatos() {
     }
 
-    public boolean comprobarDatos() {
-        return CORRECTOS;
-    }
-
-    public String analizarDatos(ArrayList<String> datos, int desplazamiento) {
-        //codigo
-        return "";
-    }
 }
